@@ -1,0 +1,28 @@
+/* simple css for the navigation menu */
+
+/* menu */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin: 0 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu ul li a:hover {
+  color: #f00;
+}
+
